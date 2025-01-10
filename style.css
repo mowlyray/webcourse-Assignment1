@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+/* font-family: "Fira Sans", serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* shared style */
+body{
+    background-color:rgb(245, 245, 245) ;
+}
+
+/* nav styles */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 160px 24px 160px;
+  background: rgb(245, 245, 245);
+}
+.nav-title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 650;
+  line-height: 38px;
+  letter-spacing: 0%;
+}
+.nav-btn {
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 106, 80);
+  border-radius: 8px;
+  color: rgb(0, 106, 80);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  padding: 3px;
+  width: 116px;
+  height: 50px;
+}
+/* banner styles */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 125px;
+  padding: 10px;
+  border-radius: 20px;
+  background: rgb(198, 228, 214);
+  width: 80%;
+  height: 400px;
+}
+.banner-subtitle {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  padding: 80px 0 10px 60px;
+}
+.banner-title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0%;
+  padding: 0 64px 10px 60px;
+}
+.banner-btn {
+  width: 270px;
+  height: 55px;
+  margin: 24px 0px;
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  border: none;
+  color: #fff;
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.banner-img {
+  width: 350px;
+  height: 300px;
+  margin-top: 50px;
+  margin-right: 45px;
+}
