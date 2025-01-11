@@ -394,7 +394,7 @@ nav {
   color: rgba(14, 14, 14, 0.3);
 }
 .donate-btn {
-  margin-left:390px;
+  margin-left: 390px;
   text-align: center;
   width: 151px;
   height: 56px;
@@ -408,5 +408,70 @@ nav {
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0%;
+}
 
+/* Newsletter style */
+
+.newsletter {
+  margin-top: 60px;
+  margin-left: 115px;
+  border-radius: 20px;
+  background: rgb(198, 228, 214);
+  width: 80%;
+  height: 280px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.newsletter .title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+}
+.newsletter .description {
+  width: 622px;
+  margin: 8px 0px 5px 200px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.newsletter-input input {
+  width: 450px;
+  padding: 18px 40px 18px 40px;
+  border-radius: 8px 0px 0px 8px;
+  border: none;
+  background: rgb(255, 255, 255);
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 14px;
+  font-weight: 400;
+}
+.news-btn {
+  width: 150px;
+  height: 54px;
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(0, 106, 80);
+  padding: 17px 34px 17px 34px;
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-weight: 600;
+}
+.newsletter-input span button:hover {
+  background-color: #1fab6a;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.newsletter .subtitle {
+  margin: 26px 0px;
+  color: rgba(20, 20, 20, 0.7);
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-weight: 400;
 }
