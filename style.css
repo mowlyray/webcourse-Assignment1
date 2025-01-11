@@ -41,6 +41,12 @@ nav {
   width: 116px;
   height: 50px;
 }
+.nav-btn:hover {
+  background-color: #56da79;
+  box-shadow: 2px 2px 2px black;
+  transition: 0.5s;
+  cursor: pointer;
+}
 /* banner styles */
 .banner {
   display: flex;
@@ -85,11 +91,65 @@ nav {
   margin-left: 60px;
   margin-top: 10px;
 }
+.banner-btn:hover {
+  background-color: #09a15c;
+  color: #ffffff;
+  transition: 0.8s;
+  box-shadow: 2px 2px 2px black;
+  transition: 0.5s;
+  cursor: pointer;
+}
 .banner-img {
   width: 350px;
   height: 300px;
   margin-top: 50px;
   margin-right: 45px;
+}
+
+/* pillars styles */
+
+.pillars {
+  margin: 80px 160px 0 160px;
+}
+
+.pillars .title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+}
+.pillar-contain {
+  display: flex;
+  gap: 45px;
+  margin-top: 25px;
+}
+.pillar-card {
+  width: 650px;
+  padding: 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+.pillar-card img {
+  width: 50px;
+}
+.pillar-card h4 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin-top: 10px;
+}
+.pillar-card p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 14px;
+  word-spacing: 1px;
 }
 
 /* vision styles */
@@ -173,11 +233,17 @@ nav {
   border-radius: 8px;
   color: rgb(255, 255, 255);
   font-family: Fira Sans;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 19px;
   letter-spacing: 0%;
   border: none;
+}
+.card1 button:hover {
+  background-color: #82c3e8;
+  box-shadow: 2px 2px 2px black;
+  transition: 0.5s;
+  cursor: pointer;
 }
 .card2 button {
   padding: 11px 20px 11px 20px;
@@ -189,7 +255,7 @@ nav {
   border-radius: 8px;
   color: rgb(255, 255, 255);
   font-family: Fira Sans;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 19px;
   letter-spacing: 0%;
@@ -202,16 +268,29 @@ nav {
   width: 122px;
   height: 38px;
   background: rgb(255, 194, 57);
-  margin: 24px 0px;
+  margin: 44px 0px;
   border-radius: 8px;
   color: rgb(255, 255, 255);
   font-family: Fira Sans;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 19px;
   letter-spacing: 0%;
   border: none;
 }
+.card2 button:hover{
+  background-color: #75dfb0;
+  box-shadow: 2px 2px 2px black;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.card3 button:hover{
+  background-color: #ddc385;
+  box-shadow: 2px 2px 2px black;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
 .yunus-speech {
   padding: 35px 24px;
   margin-top: 35px;
@@ -336,6 +415,15 @@ nav {
   color: white;
   margin-top: 20px;
 }
+.news-btn:hover{
+  background-color: #09a15c;
+  color: #ffffff;
+  transition: 0.8s;
+  box-shadow: 2px 2px 2px black;
+  transition: 0.5s;
+  cursor: pointer;
+
+}
 
 /* donate styles */
 .donate {
@@ -377,6 +465,7 @@ nav {
 .donate-container input:hover {
   background-color: #09a15c;
   color: #ffffff;
+  cursor: pointer;
   transition: 0.8s;
 }
 .amount-input input {
@@ -408,6 +497,14 @@ nav {
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0%;
+}
+.donate-btn:hover{
+  background-color: #09a15c;
+  color: #ffffff;
+  transition: 0.8s;
+  box-shadow: 2px 2px 2px black;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 /* Newsletter style */
