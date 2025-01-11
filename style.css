@@ -278,13 +278,13 @@ nav {
   letter-spacing: 0%;
   border: none;
 }
-.card2 button:hover{
+.card2 button:hover {
   background-color: #75dfb0;
   box-shadow: 2px 2px 2px black;
   transition: 0.5s;
   cursor: pointer;
 }
-.card3 button:hover{
+.card3 button:hover {
   background-color: #ddc385;
   box-shadow: 2px 2px 2px black;
   transition: 0.5s;
@@ -415,14 +415,13 @@ nav {
   color: white;
   margin-top: 20px;
 }
-.news-btn:hover{
+.news-btn:hover {
   background-color: #09a15c;
   color: #ffffff;
   transition: 0.8s;
   box-shadow: 2px 2px 2px black;
   transition: 0.5s;
   cursor: pointer;
-
 }
 
 /* donate styles */
@@ -498,7 +497,7 @@ nav {
   font-weight: 600;
   letter-spacing: 0%;
 }
-.donate-btn:hover{
+.donate-btn:hover {
   background-color: #09a15c;
   color: #ffffff;
   transition: 0.8s;
@@ -572,4 +571,29 @@ nav {
   font-family: Fira Sans;
   font-size: 15px;
   font-weight: 400;
+}
+
+/* footer start here  */
+
+.footer {
+  background: rgb(255, 255, 255);
+  padding: 60px 100px 80px 100px;
+  text-align: center;
+}
+.footer h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.line {
+  margin-left: 160px;
+  margin-bottom: 20px;
+  opacity: 50%;
+}
+.icons {
+  display: flex;
+  gap: 22px;
+  justify-content: center;
 }
